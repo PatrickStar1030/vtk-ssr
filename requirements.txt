@@ -1,0 +1,22 @@
+# VTK 相关
+vtk>=9.2.0
+vtkmodules>=9.2.0
+
+# WSLink 相关
+wslink>=1.1.0
+
+# DICOM 处理
+pydicom>=2.4.0
+
+# 数据处理
+numpy>=1.21.0
+
+# 环境变量管理
+python-dotenv>=0.19.0
+
+# 类型提示支持
+typing-extensions>=4.0.0
+
+# 开发工具（可选）
+pytest>=7.0.0
+pytest-asyncio>=0.21.0 

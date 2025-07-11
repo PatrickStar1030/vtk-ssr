@@ -1,4 +1,3 @@
-from aiohttp.web import view
 from wslink import server, register as exportRpc
 from vtkmodules.web.wslink import ServerProtocol
 from vtkmodules.web import protocols, wslink as vtk_wslink
