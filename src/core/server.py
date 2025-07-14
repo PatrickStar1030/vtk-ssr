@@ -17,7 +17,8 @@ class FPSCallback:
         self.text_actor.GetPositionCoordinate().SetCoordinateSystemToNormalizedDisplay()
         self.text_actor.SetPosition(0.85, 0.9)
         
-        self.renderer.AddActor2D(self.text_actor)
+        # self.renderer.AddActor2D(self.text_actor)
+        self.renderer.AddViewProp(self.text_actor)
         self.last_time = time.time()
         self.frame_count = 0
 
@@ -248,7 +249,6 @@ class _WebVR(ServerProtocol):
                 print("视图已注册到应用")
             else:
                 import logging
-
                 logging.warning(
                     "getApplication() returned None or does not have GetObjectIdMap"
                 )
